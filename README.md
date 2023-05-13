@@ -1,6 +1,6 @@
 # MadLibber
 
-A small project to give suggestions for the popular fill-in-the-blank word game. Suggestions come from the (https://fakerjs.dev/)[Faker] JS library.
+A small project to give suggestions for the popular fill-in-the-blank word game. Suggestions come from the [Faker](https://fakerjs.dev/) JS library.
 
 
 
