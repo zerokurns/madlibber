@@ -10,7 +10,7 @@
 	};
 
 	const getPlace = () => {
-		const randInt = Math.floor(Math.random()* 3)  + 1;
+		const randInt = Math.floor(Math.random() * 3) + 1;
 		let place: string = '';
 		switch (randInt) {
 			case 1:
@@ -38,7 +38,7 @@
 				<p class="text-xl font-semibold">{$word}</p>
 			</div>
 		</div>
-		<div class="flex flex-row gap-2">
+		<div class="flex flex-wrap flex-row gap-2 justify-center">
 			<button
 				class="btn variant-filled"
 				type="button"
@@ -81,8 +81,8 @@
 					setWord(faker.person.firstName());
 				}}>Name</button
 			>
-        </div>
-		<div class="flex flex-row gap-2">
+		</div>
+		<div class="flex flex-wrap flex-row gap-2 justify-center">
 			<button
 				class="chip !bg-transparent"
 				type="button"
@@ -133,7 +133,6 @@
 				}}>Random</button
 			>
 		</div>
-		
 	</div>
 </div>
 
